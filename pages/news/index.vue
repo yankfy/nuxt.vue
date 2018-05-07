@@ -7,7 +7,8 @@
         <a href="/">Home</a>
       </li>
       <li>
-        <nuxt-link :to="{name: 'news-id',params:{id:123,title:'JSPONY'}}">News-1</nuxt-link> <br>
+        <nuxt-link :to="{name: 'news-id',params:{id:123,title:'JSPONY'}}">News-1</nuxt-link>
+        <br>
         <a href="/news/123">News-1</a>
       </li>
       <li>
